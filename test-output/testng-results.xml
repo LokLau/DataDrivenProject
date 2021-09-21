@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="0" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[ITestResult: logInAsBankManager]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\zilel\OneDrive\Desktop\LOK\Selenium_Project\DataDrivenFrameWork\src\test\resources\screenshots\Mon_Sep_20_09_54_25_AEST_2021.jpg"> Screenshot  </a>]]>
+    </line>
+    <line>
+      <![CDATA[</br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Framework" duration-ms="8259" started-at="2021-09-20T09:54:20 AEST" finished-at="2021-09-20T09:54:29 AEST">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="5499" started-at="2021-09-20T09:54:20 AEST" finished-at="2021-09-20T09:54:26 AEST">
+      <class name="testcases.LoginTest">
+        <test-method status="FAIL" signature="logInAsBankManager()[pri:0, instance:testcases.LoginTest@33065d67]" name="logInAsBankManager" duration-ms="4213" started-at="2021-09-20T09:54:20 AEST" finished-at="2021-09-20T09:54:25 AEST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[log in unsuccessful!!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: log in unsuccessful!!!
+at org.testng.Assert.fail(Assert.java:99)
+at testcases.LoginTest.logInAsBankManager(LoginTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[ITestResult: logInAsBankManager]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\zilel\OneDrive\Desktop\LOK\Selenium_Project\DataDrivenFrameWork\src\test\resources\screenshots\Mon_Sep_20_09_54_25_AEST_2021.jpg"> Screenshot  </a>]]>
+            </line>
+            <line>
+              <![CDATA[</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInAsBankManager -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="AddCustomerTest" duration-ms="259" started-at="2021-09-20T09:54:26 AEST" finished-at="2021-09-20T09:54:26 AEST">
+      <class name="testcases.AddCustomerTest">
+        <test-method status="SKIP" signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@353352b6]" name="addCustomerTest" duration-ms="7" started-at="2021-09-20T09:54:26 AEST" data-provider="DP" finished-at="2021-09-20T09:54:26 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Tony, Password=SeEllox&12, LastName=Depp}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the RunMode is No: addCustomerTest]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the RunMode is No: addCustomerTest
+at listeners.CustomListeners.onTestStart(CustomListeners.java:53)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:572)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test name="OpenAccountTest" duration-ms="2360" started-at="2021-09-20T09:54:26 AEST" finished-at="2021-09-20T09:54:29 AEST">
+      <class name="testcases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@14028087]" name="setUp" is-config="true" duration-ms="7495" started-at="2021-09-20T09:54:13 AEST" finished-at="2021-09-20T09:54:20 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@14028087]" name="openAccountTest" duration-ms="1997" started-at="2021-09-20T09:54:26 AEST" data-provider="DP" finished-at="2021-09-20T09:54:28 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, Currency=Dollar, CustomerName=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="SKIP" signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@14028087]" name="openAccountTest" duration-ms="3" started-at="2021-09-20T09:54:28 AEST" data-provider="DP" finished-at="2021-09-20T09:54:28 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=N, Currency=Pound, CustomerName=Ron Weasly}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Data RunMode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Data RunMode is No
+at testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@14028087]" name="tearDown" is-config="true" duration-ms="4812" started-at="2021-09-20T09:54:29 AEST" finished-at="2021-09-20T09:54:33 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- Data Driven Framework -->
+</testng-results>

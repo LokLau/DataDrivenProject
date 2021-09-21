@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OpenAccountTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="2.000">
+  <properties />
+  
+            <testcase name="openAccountTest" time="0.0" classname="testcases.OpenAccountTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="openAccountTest" time="1.997" classname="testcases.OpenAccountTest" />
+      
+</testsuite>
