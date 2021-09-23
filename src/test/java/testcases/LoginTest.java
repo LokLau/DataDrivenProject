@@ -14,9 +14,9 @@ public class LoginTest extends TestBase {
 	public void logInAsBankManager() throws IOException, InterruptedException {
 		
 		 
-		verifyEquals("123","abc");
+		//verifyEquals("123","abc");
 
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
 		click("bmlBtn_CSS");
 	
@@ -25,7 +25,7 @@ public class LoginTest extends TestBase {
 	
 		click("addCusBtn_CSS");
 		
-		Assert.fail("log in unsuccessful!!!");
+		//Assert.fail("log in unsuccessful!!!");
 		
 		
 	}
